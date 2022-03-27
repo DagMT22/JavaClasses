@@ -29,9 +29,18 @@ public class Application {
 			System.out.println(each.toString());
 		}
 		
+		Dog kiva = new Dog();
+		kiva.speak();
+		System.out.println(kiva.getFavoriteFoodName());
 		
+		Rectangle2 sample = new Rectangle2(2.0, 5.0);
+		System.out.println("Perimeter = " + sample.calculatePerimeter());
+		System.out.println("Area = " + sample.calculateArea());
 		
 		
 	}
 
+	
+	
+	
 }
