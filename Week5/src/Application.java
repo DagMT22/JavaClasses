@@ -37,6 +37,7 @@ public class Application {
 		System.out.println("Perimeter = " + sample.calculatePerimeter());
 		System.out.println("Area = " + sample.calculateArea());
 		
+		StringBuilder firstName = new StringBuilder();
 		
 	}
 
