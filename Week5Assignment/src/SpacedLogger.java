@@ -17,6 +17,7 @@ public class SpacedLogger implements Logger{
 	@Override
 	public void error(String error) {
 		StringBuilder output = new StringBuilder();
+		output.append("ERROR: ");
 		for (int i = 0; i < error.length(); i++) {
 			output.append(error.charAt(i));
 			if (i < error.length()-1) {
